@@ -208,9 +208,11 @@ public:
 			curr = curr->next;
 			delete deleteNode;
 
-			this->head = this->tail = nullptr;
 		}
+		
+		this->head = this->tail = nullptr;
 	}
+	
 	~DoublyLinkedList()
 	{
 
